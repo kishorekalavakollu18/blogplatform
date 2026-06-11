@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: blog-platform-backend
+    env: node
+    plan: free
+    rootDir: backend
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: PORT
+        value: 5001
+      - key: MONGO_URI
+        value: mongodb+srv://kishore:kishore18@cluster0.fb5gdsz.mongodb.net/expense-tracker?appName=Cluster0
+      - key: JWT_SECRET
+        value: supersecretkey
