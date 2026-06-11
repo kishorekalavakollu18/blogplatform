@@ -2,11 +2,11 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "https://blog-platform-backend.onrender.com/api/:path*"
+      "destination": "https://blogplatform-8rda.onrender.com/api/:path*"
     },
     {
       "source": "/uploads/:path*",
-      "destination": "https://blog-platform-backend.onrender.com/uploads/:path*"
+      "destination": "https://blogplatform-8rda.onrender.com/uploads/:path*"
     }
   ]
 }
